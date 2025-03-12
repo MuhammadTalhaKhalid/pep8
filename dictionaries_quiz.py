@@ -72,7 +72,7 @@ for key, value in d.items():
 print(d2)
 
 # Write a Python program that finds the key with the highest corresponding value in a dictionary of numbers.
-d = {"one": 23, "twp": 345457, "three": 345}
+d = {"one": 23, "two": 345457, "three": 345}
 for index, value in d.items():
     if value == max(d.values()):
         print(index)
